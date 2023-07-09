@@ -1,0 +1,21 @@
+/* Open Sans fonts import */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Georgian:wght@200;300;400&family=Open+Sans:wght@400;500;800&family=Roboto:wght@700;900&family=Yellowtail&display=swap');
+
+
+.font-bold1 {
+    font-family: 'Roboto-bold';
+  }
+
+  .font-bold2 {
+    font-family: 'Roboto-black';
+  }
+
+  .fonts3 {
+    font-family: 'Yellowtail', cursive;
+
+  }
+
+  .font5 {
+    font-family: 'Open Sans', sans-serif;
+
+  }
