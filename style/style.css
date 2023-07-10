@@ -1,21 +1,48 @@
 /* Open Sans fonts import */
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Georgian:wght@200;300;400&family=Open+Sans:wght@400;500;800&family=Roboto:wght@700;900&family=Yellowtail&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Georgian:wght@200;300;400&family=Open+Sans:wght@400;500;800&family=Roboto:wght@700;900&family=Yellowtail&display=swap");
 
+/* fonts name:
+   font-family: 'Yellowtail', cursive;   
+   font-family: 'Open Sans', sans-serif;
+   font-family: 'Roboto-black';
+   font-family: 'Roboto-bold';*/
 
-.font-bold1 {
-    font-family: 'Roboto-bold';
+ /* Common styles for .roboto_ft class and links */
+  .roboto_ft, a {
+    color: #274C5B;
+    font-family: Roboto-bold;
   }
 
-  .font-bold2 {
-    font-family: 'Roboto-black';
-  }
+/* Header styles */
+.header {
+  padding: 69px 162px;
+  background: #ffffffe6;
+}
 
-  .fonts3 {
-    font-family: 'Yellowtail', cursive;
+.logo_box {
+  width: 12.5rem;
+  display: flex;
+  align-items: center;
+}
 
-  }
+.logo_name {
+  font-size: 38px;
+  margin-left: 8px;
+}
 
-  .font5 {
-    font-family: 'Open Sans', sans-serif;
+.header_wrapper {
+  display: flex;
+  width: 912.791px;
+  align-items: center;
+  gap: 150px;
+}
 
-  }
+.navigation {
+  width: 35.25rem;
+  font-size: 20px;
+}
+
+.navbar_menu {
+  display: flex;
+  justify-content: space-between;
+}
