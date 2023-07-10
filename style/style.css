@@ -7,16 +7,19 @@
    font-family: 'Roboto-black';
    font-family: 'Roboto-bold';*/
 
- /* Common styles for .roboto_ft class and links */
-  .roboto_ft, a {
-    color: #274C5B;
-    font-family: Roboto-bold;
-  }
+/* Common styles for .roboto_ft class and links */
+.roboto_ft,
+a {
+  color: #274c5b;
+  font-family: Roboto-bold;
+}
 
 /* Header styles */
 .header {
+  width: 100%;
+  max-width: 1920px;
   padding: 69px 162px;
-  background: #ffffffe6;
+  background-color: #ffffffe6;
 }
 
 .logo_box {
@@ -45,4 +48,89 @@
 .navbar_menu {
   display: flex;
   justify-content: space-between;
+}
+
+/* Main section styles */
+.main_content {
+
+  background-color: #F9F8F8;
+}
+
+.content_container {
+  max-width: 1400px;
+  height: 1050px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.about_container {
+  display: flex;
+  gap: 51px;
+}
+
+.about_content {
+  width: 671px;
+  height: 624px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 49.28px;
+}
+
+.about_heading {
+  color: #7eb693;
+  font-family: "Yellowtail", cursive;
+  font-size: 36px;
+}
+
+.no_open_market {
+  color: #274c5b;
+  font-family: Roboto-black;
+  font-size: 50px;
+  margin: 6px 0 25px;
+}
+
+.industry_text, .product_description  {
+  color: #525c60;
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  line-height: 165.4%;
+  margin-bottom: 36px ;
+}
+
+.product_info {
+  width: 486px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+}
+
+.icon_wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 29px 91px 29px 27px;
+  gap: 10px;
+  background-color: #ececec;
+}
+
+.product_link{
+  color: #274c5b;
+  font-family: "Roboto-bold";
+  font-size: 20px;
+}
+
+.product_description {  
+  width: 444px;
+  margin: 0 60px;
+}
+
+.product_image {
+  height: 624px;
+  padding: 9px 12px 12px 0;
+  border-radius: 30px;
+  margin-top: 62.78px;
 }
