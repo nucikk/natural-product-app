@@ -8,7 +8,7 @@
    font-family: 'Roboto-bold';*/
 
 /* Common styles for .roboto_ft class and links */
-.roboto_ft,
+boto_ft,
 a {
   color: #274c5b;
   font-family: Roboto-bold;
@@ -17,7 +17,7 @@ a {
 /* Header styles */
 .header {
   width: 100%;
-  max-width: 1920px;
+  max-width: 120rem;
   padding: 69px 162px;
   background-color: #ffffffe6;
 }
@@ -35,7 +35,8 @@ a {
 
 .header_wrapper {
   display: flex;
-  width: 912.791px;
+  width: 100%;
+  max-width: 912.791px;
   align-items: center;
   gap: 150px;
 }
@@ -52,26 +53,28 @@ a {
 
 /* Main section styles */
 .main_content {
-
-  background-color: #F9F8F8;
+  height: 74.75rem;
+  background-color: #f9f8f8;
 }
 
 .content_container {
-  max-width: 1400px;
+  max-width: 87.5rem;
   height: 1050px;
   display: flex;
   flex-direction: column;
   align-items: center;
   margin: 0 auto;
+  gap: 91px;
 }
 
 .about_container {
   display: flex;
-  gap: 51px;
+  gap: 55px;
 }
 
 .about_content {
-  width: 671px;
+  width: 100%;
+  max-width: 41.9375rem;
   height: 624px;
   display: flex;
   flex-direction: column;
@@ -92,16 +95,18 @@ a {
   margin: 6px 0 25px;
 }
 
-.industry_text, .product_description  {
+.industry_text,
+.product_description {
   color: #525c60;
   font-family: "Open Sans", sans-serif;
   font-size: 18px;
   line-height: 165.4%;
-  margin-bottom: 36px ;
+  margin-bottom: 36px;
 }
 
 .product_info {
-  width: 486px;
+  width: 100%;
+  max-width: 30.375rem;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -117,20 +122,55 @@ a {
   background-color: #ececec;
 }
 
-.product_link{
+.product_link {
   color: #274c5b;
   font-family: "Roboto-bold";
   font-size: 20px;
 }
 
-.product_description {  
-  width: 444px;
+.product_description {
+  width: 100%;
+  max-width: 27.75rem;
   margin: 0 60px;
 }
 
 .product_image {
-  height: 624px;
+  width: 100%;
+  max-width: 39rem;
+  height: auto;
   padding: 9px 12px 12px 0;
   border-radius: 30px;
   margin-top: 62.78px;
+}
+
+/* Footer section style */
+.footer {
+  width: 1118px;
+  height: 335px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 30px;
+}
+
+.return_policy {
+  width: 257px;
+  height: 335px;
+  background: #fff;
+}
+
+.return_policy_title {
+  color: #274c5b;
+  font-family: Roboto-bold;
+  font-size: 25px;  
+  margin: 29px 83px 0 22px;
+}
+
+.return_policy_text {
+  color: #525c60; 
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  text-align: center;
+  line-height: 165.4%; 
+   margin: 20px 37px 0 36px;
 }
